@@ -1,1 +1,2 @@
-;; org-persist.el - Porg-1 at <2018-01-31 Wed 21:16>
+;; org-persist.el - Porg-1 at <2018-02-02 Fri 12:13>
+(setq stored-clock-history '(("/home/mellemahp/org_files/refile.org" . 574)))

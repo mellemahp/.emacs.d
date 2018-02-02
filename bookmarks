@@ -4,7 +4,7 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
  (filename . "~/org_files/refile.org")
- (front-context-string . "* TODO stuff\n\n[2")
- (rear-context-string . "\n\n   for MARVIN\n")
- (position . 274))
+ (front-context-string . "* TODO Fix .emac")
+ (rear-context-string . "2018-01-31 Wed>\n")
+ (position . 574))
 )
