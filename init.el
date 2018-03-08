@@ -17,16 +17,16 @@
 ;; ==============================
 
 (require 'package)
-(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
-                    (not (gnutls-available-p))))
-       (proto (if no-ssl "http" "https")))
-
-(add-to-list 'package-archives
-	     (cons "melpa" (concat proto "://melpa.org/packages/"))
-	     t)
-(add-to-list 'package-archives
-	     '("gnu" . (concat proto "://elpa.gnu.org/packages/"))))
 (package-initialize)
+(setq package-archives '())
+
+ (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+ (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+ (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/"))
+
+ (package-refresh-contents)
+
+ (package-initialize)
 
 ;; Email, El-get & other lisp code
 (add-to-list 'load-path

@@ -19,10 +19,10 @@ Have a blast Coding!
 
 ;; Set theme
 (load-theme
- 'gruvbox-dark-medium t)
+'dracula t)
 
 ;; Font settings
-(set-frame-font "Fira Code" nil t) ; Consolas-14
+(set-frame-font "FiraMono" nil t) ;
 (set-face-attribute 'default (selected-frame) :height 135)
 
 ;; ido mode

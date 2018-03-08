@@ -23,6 +23,7 @@
     ; Rust
     rust-mode
     cargo
+    ;flycheck
     flycheck-rust
     racer
     ;; Latex stuff
@@ -33,13 +34,15 @@
     volatile-highlights
 
     ;; Org Stuff
-    ;org-autolist
-    ;org-bullets
+    org-autolist
+    org-bullets
 
     ;; Extras
     fireplace
-    gruvbox-theme
-    autothemer))
+    dracula-theme
+    autothemer
+
+    ))
 
 (provide 'package-vars)
 

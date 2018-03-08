@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/mellemahp/website/assets/" . "css/")
+ ("/home/mellemahp/website/" . "_includes/")
  ("/home/mellemahp/rust_projects/rbe/chpt5/" . "src/")
  ("/home/mellemahp/rust_projects/rbe/chpt4/" . "src/")
  ("/home/mellemahp/rust_projects/rbe/chpt3/" . "src/")
@@ -29,10 +31,13 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/mellemahp/org_files/"
  "/home/mellemahp/oincoin-/oincoin/"
  "/home/mellemahp/.emacs.d/lisp/"
+ "/home/mellemahp/org_files/"
  "/home/mellemahp/.emacs.d/"
+ "/home/mellemahp/website/_includes/"
+ "/home/mellemahp/website/"
+ "/home/mellemahp/website/assets/css/"
  "/home/mellemahp/rust_projects/rbe/chpt2/src/"
  "/home/mellemahp/rust_projects/rbe/chp1/src/"
  "/home/mellemahp/rust_projects/rbe/chpt5/src/"
@@ -58,47 +63,71 @@
 
 ;; ----- ido-work-file-list -----
 (
- "misc_software.org"
- "oincoin.org"
- "rust.org"
  "oincoin.py"
- "package-vars.el"
- "init.el"
  "style-cfg.el"
- "main.rs"
- "todo.org"
- "org-cfg.el"
+ "rust.org"
+ "package-vars.el"
+ "kendra.org"
+ "init.el"
+ "init.el RET"
+ "#bottom.html#"
+ "index.html"
+ "bottom.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mellemahp/org_files/" (23155 24735 120259 326000) "foobar.org" "oincoin.org" "rust.org" "blogs.org" "misc_software.org" "garden_manager.org" "workflow.org" "workflow.org~" "refile.org" "#todo.org#" "oincoin.org~" "rust.org~" "../" "website.org" ".git/" ".#todo.org" "./" "kendra.org" "todo.org")
+ ("/home/mellemahp/" (23200 47166 853725 760000) "org_files/" ".esd_auth" ".zsh_history" ".gnupg/" "package-query/" ".dmrc" ".Xclients" "../" ".dir_colors" "mwifiex-firmware/" ".xsession-errors.old" ".python_history" "Desktop/" ".cache/" "website/" ".bash_profile" ".local/" ".guayadeque/" ".xsession-errors" "oincoin-/" ".wget-hsts" ".bashrc" ".ICEauthority" ".mozilla/" ".Xauthority" ".xinitrc" ".emacs.d/" "fonts/" "./" "rust_projects/" ".bash_logout" ".profile" ".gitconfig" ".thumbnails/" "Downloads/" ".bash_history" "marvin/" "paper-gtk-theme-git/" ".config/" ".zshrc" ".zcompdump-hunter-pc-5.4.2")
 
- ("/home/mellemahp/" (23155 21657 319999 496000) ".offlineimaprc" "Maildir/" "trusty" "mu-0.9.9.5.tar.gz" ".zcompdump-Porg-1-5.2" ".zsh_history" ".oh-my-zsh/" ".offlineimap.pyc" ".rbenv/" ".zshrc~" ".ecryptfs/" "th-pg/" "#test#" ".offlineimap/" ".viminfo" ".xsession-errors" ".pylint.d/" "Music/" "xflux64.tgz" "Pictures/" "Gemfile" "xflux" ".gem/" ".emacs~" "exercism/" "FiraCode/" "deb" "mwifiex-firmware/" ".directory" ".pylintrc" "bin/" "gitlab-ce_9.3.0-ce.0_amd64.deb" ".lesshst" "Tutorial" ".kde/" ".gtkrc-2.0" ".authinfo.gpg" "mozilla.pdf" ".gconf/" ".exercism.json" ".bash_profile" "Downloads/" ".dbus/" "Tutorial~" "Public/" "Desktop/" ".fonts/" ".Xauthority" ".face.icon" "Templates/" ".cache/" "org_files/" ".sudo_as_admin_successful" "Documents/" "web_projects/" ".fonts.conf" ".zcompdump" ".rustup/" "##*.org##" ".yarnrc" "emacs_addins/" ".emacs.d/" "fonts/" ".bogofilter/" ".zprofile" "wifi_reset.sh" ".mozilla/" "minimal-emacs-configuration/" "Videos/" ".gnupg/" ".offlineimaprc~" ".npm/" ".gitconfig" "Code/" ".offlineimap.py" "oincoin-/" ".pki/" ".nano/" ".git/" ".config/" "rust_projects/" ".local/" ".cargo/" ".ssh/" "#j#" "main" ".multirust/" ".zshrc" ".recently-used" "latex/" "#*.org#" ".zsh-update" ".mysql_history" ".face" "Gemfile.lock" "html_tutorial/" ".mu/" ".profile" ".bundle/" "mu-0.9.9.5/" ".ipython/" "../" "./")
+ ("/home/mellemahp/.emacs.d/lisp/" (23200 46615 981824 795000) "lang-cfg.el" "org-bullets.el" "package-vars.el" "other-cfg.el" "package-vars.el~" "org-cfg.el" "lang-cfg.el~" "../" "latex-cfg.el~" "latex-cfg.el" "other-cfg.el~" "style-cfg.el~" "org-cfg.el~" "ocodo-svg-mode-line.el" "style-cfg.el" "./")
 
- ("/home/mellemahp/oincoin-/oincoin/" (23154 41608 771699 325000) "__init__.py" "oincoin.py" "../" "./")
+ ("/home/mellemahp/.emacs.d/" (23200 46103 733122 591000) "auto-save-list/" "init.el" "ido.last" "snippets/" "../" ".directory" ".gitignore" "magithub/" "init.el~" "init.el RET" "elpa/" "./" ".git/" "org-clock-save.el~" "ac-comphist.dat" "org-clock-save.el" "ido.last~" "url/" "lisp/" "bookmarks" "network-security.data")
 
- ("/home/mellemahp/.emacs.d/lisp/" (23153 22063 548955 852000) "org-cfg.el~" "lang-cfg.el~" "style-cfg.el" "package-vars.el" "latex-cfg.el~" "ocodo-svg-mode-line.el" "other-cfg.el~" "other-cfg.el" "org-bullets.el" "style-cfg.el~" "../" "latex-cfg.el" "lang-cfg.el" "./" "package-vars.el~" "org-cfg.el")
+ ("/home/mellemahp/oincoin-/" (23175 8095 61807 20000) "bin/" "TODO.md" "include/" "../" "README.md" ".gitignore" "oincoin/" "docs/" "LICENSE" "requirements.txt" "setup.py" "share/" "./" "test/" ".git/" "local/")
 
- ("/home/mellemahp/rust_projects/rbe/chpt2/src/" (23153 21873 685064 247000) ".#main.rs" "main.rs~" "../" "main.rs" "./" "#main.rs#")
+ ("/home/mellemahp/website/assets/css/" (23200 37577 388043 378000) "../" "mobile.css" "default.css" "syntax.css" "desktop.css" "./" "genericons.css")
 
- ("/home/mellemahp/.emacs.d/" (23153 21598 750653 748000) "ac-comphist.dat" "project-explorer-cache/" "init.el" "bookmarks" "elpa/" "magithub/" "auto-save-list/" ".directory" "url/" "#ido.last#" "init.el~" "games/" "eshell/" "org-clock-save.el" "org-clock-save.el~" "lisp/" "init.el RET" "../" "snippets/" "ido.last~" "./" "ido.last")
+ ("/home/mellemahp/website/" (23200 35183 317318 438000) "_site/" "_layouts/" "404.html" "../" "_config.yml" "README.md" "_pages/" "CNAME" "LICENSE" ".index.html.kate-swp" "_includes/" "assets/" "home.md" "./" ".git/" "drafts/" "index.html" ".home.md.kate-swp")
+
+ ("/home/mellemahp/website/_includes/" (23200 36109 247326 923000) "head.html" "bottom.html~" "../" "top.html" "./" "#bottom.html#~" "bottom.html" "image.html")
+
+ ("/home/mellemahp/rust_projects/adder/src/" (23175 8360 325509 558000) "lib.rs~" "../" "./" "lib.rs")
+
+ ("/home/mellemahp/rust_projects/hello_cargo/src/" (23175 8360 565547 535000) "main.rs" "../" "main.rs~" "./")
+
+ ("/home/mellemahp/rust_projects/minigrep/" (23175 8360 585550 700000) "poem.txt" "Cargo.toml" "target/" "../" "src/" "Cargo.lock" "./")
+
+ ("/home/mellemahp/rust_projects/minigrep/src/" (23175 8360 585550 700000) "main.rs" "lib.rs~" "../" "#main.rs#~" "main.rs~" "./" "lib.rs")
+
+ ("/home/mellemahp/Desktop/" (23197 29056 67391 680000) ".~lock.Untitled 1.odt#" "../" "Untitled 1.odt" "firefox.desktop" "./")
+
+ ("/home/mellemahp/rust_projects/lists/src/" (23175 8360 578882 978000) "third.rs" "third.rs~" "fourth.rs~" "lib.rs~" "../" "second.rs" "first.rs~" "second.rs~" "fourth.rs" "./" "first.rs" "lib.rs")
+
+ ("/home/mellemahp/rust_projects/rbe/chpt3/src/" (23175 8360 615555 447000) "main.rs" "../" "main.rs~" "./")
+
+ ("/home/mellemahp/rust_projects/rbe/chpt4/src/" (23175 8360 622223 169000) "main.rs" "../" "main.rs~" "./")
+
+ ("/home/mellemahp/rust_projects/rbe/chpt5/src/" (23175 8360 622223 169000) "main.rs" "../" "main.rs~" "./")
+
+ ("/home/mellemahp/rust_projects/rbe/chp1/src/" (23175 8360 608887 726000) "main.rs" "../" "main.rs~" "./")
+
+ ("/home/mellemahp/rust_projects/rbe/chpt2/src/" (23175 8360 612221 587000) "main.rs" "../" "main.rs~" "./")
+
+ ("/home/mellemahp/oincoin-/oincoin/" (23175 8095 48478 943000) "bin/" "include/" "../" "share/" "./" "__init__.py" "local/" "oincoin.py")
+
+ ("/home/mellemahp/org_files/" (23175 8353 751122 159000) "kendra.org" "workflow.org~" "garden_manager.org" "foobar.org_archive" "diary.org" "website.org~" "../" "rust.org~" "foobar.org~" "rust.org" "blogs.org" "./" "oincoin.org" "todo.org" "oincoin.org~" "website.org" "workflow.org" "blogs.org~" "foobar.org" "misc_software.org" "misc_software.org~" "refile.org" "#misc_software.org#")
+
+ ("/home/mellemahp/website/_pages/" (23175 8081 864791 240000) "resume/" "../" "blogs/" "projects/" "./")
+
+ ("/home/mellemahp/website/assets/" (23175 8082 247924 830000) "img/" "../" "logos/" "css/" "./" "files/" "js/")
 
  ("/home/mellemahp/rust_projects/rbe/chpt2/" (23152 2104 499791 725000) "Cargo.lock" "target/" "../" "Cargo.toml" "./" "src/")
-
- ("/home/mellemahp/rust_projects/rbe/chp1/src/" (23152 3452 584811 844000) "main.rs~" "../" "main.rs" "./")
-
- ("/home/mellemahp/rust_projects/rbe/chpt5/src/" (23153 15905 821511 436000) "../" "main.rs" "./")
 
  ("/home/mellemahp/rust_projects/rbe/chpt5/" (23153 15905 821511 436000) "../" "Cargo.toml" "./" "src/")
 
  ("/home/mellemahp/rust_projects/rbe/" (23153 15905 821511 436000) "chpt2/" "chpt4/" "chp1/" "../" "./" "chpt5/" "chpt3/")
 
  ("/home/mellemahp/rust_projects/rbe/chpt4/" (23153 15724 580936 408000) "Cargo.lock" "target/" "../" "Cargo.toml" "./" "src/")
-
- ("/home/mellemahp/rust_projects/rbe/chpt4/src/" (23153 15886 933915 350000) "main.rs~" "../" "main.rs" "./")
-
- ("/home/mellemahp/rust_projects/rbe/chpt3/src/" (23152 3431 205106 327000) "../" "main.rs" "./")
 
  ("/home/mellemahp/rust_projects/rbe/chpt3/" (23152 3431 205106 327000) "../" "Cargo.toml" "./" "src/")
 
@@ -110,8 +139,6 @@
 
  ("/home/mellemahp/org_files/projects/" (23151 37798 624863 795000) "foobar.org" "oincoin.org" "rust.org" "blogs.org" "garden_manager.org" "workflow.org" "oincoin.org~" "../" "website.org" "./")
 
- ("/home/mellemahp/rust_projects/lists/src/" (23150 25851 518649 272000) "lib.rs" "first.rs~" "third.rs~" "lib.rs~" "second.rs" "fourth.rs" "first.rs" "second.rs~" "third.rs" "../" "fourth.rs~" "./")
-
  ("/home/mellemahp/Org-Files/" (23151 22557 746162 50000) "refile.org" "../" ".git/" "./" "kendra.org" "projects/" "todo.org")
 
  ("/home/mellemahp/latex/" (23142 31238 931818 787000) "fontawesome.sty" "output.html" "resume.tex" "../" "resume/" "fonts/" "resume.log" "./" "#resume.tex#" "awesome-cv.cls" "README.md")
@@ -122,23 +149,11 @@
 
  ("/home/mellemahp/.config/" (23148 61501 195996 596000) "user-dirs.locale" "konsolerc" "fontconfig/" "QtProject.conf" "matplotlib/" "ksmserverrc" "phishingurlrc" "plasma-org.kde.plasma.desktop-appletsrc" "akonadi_indexing_agentrc" "plasmarc" "plasma-localerc" "kcmfonts" "krunnerrc" "KDE/" "user-dirs.dirs" "khotkeysrc" "startupconfig" "startupconfigkeys" "autostart-scripts/" "plasmashellrc" "akonadi-firstrunrc" "arkrc" "emaildefaults" "kio_ftprc" "akonadi_akonotes_resource_0rc" "kscreenlockerrc" "systemsettingsrc" "pulse/" "libreoffice/" "katerc" "kfontviewrc" "akonadi-migrationrc" "kwalletmanager5rc" "akonadi/" "inkscape/" "akonadi_ical_resource_0rc" "kfontinstuirc" "dconf/" "ksplashrc" "mimeapps.list" "kcmdrivermanagerrc" "dolphinrc" "spectaclerc" "trashrc" "kcminputrc" "kwinrc" "bluedevilglobalrc" "kdebugrc" "gtkrc" "gtk-3.0/" "korgacrc" "kxkbrc" "startupconfigfiles" "emailidentities" "kwinrulesrc" "kdeglobals" "evolution/" "kdeconnect/" "katemetainfos" "okularrc" "kmail2rc" "gtkrc-2.0" "kmixrc" "powermanagementprofilesrc" "katepartrc" "powerdevilrc" "kconf_updaterc" "Trolltech.conf" "specialmailcollectionsrc" "kmailsearchindexingrc" "ktimezonedrc" "akonadi_maildir_resource_0rc" "kioslaverc" "katevirc" "drkonqirc" "kded_device_automounterrc" "baloofilerc" "kwalletrc" "kglobalshortcutsrc" "discoverrc" "ksysguardrc" "kactivitymanagerdrc" "webengineurlinterceptoradblockrc" "akregatorrc" "kateschemarc" "gwenviewrc" "session/" "enchant/" "gtk-2.0/" "../" "./")
 
- ("/home/mellemahp/Desktop/" (23147 38908 212639 494000) "trash.desktop" "Home.desktop" "#stuff.rs#" ".directory" ".~lock.launch_cost_est.ods#" "inkscape/" "exercism-linux-64bit.tgz" "org_files/" "#test.py#" "../" "wireframe_crop.png" "wireframe.png" "cspice/" "./" "launch_cost_est.ods")
-
- ("/home/mellemahp/rust_projects/minigrep/src/" (23144 59115 583044 909000) "lib.rs" "lib.rs~" "#main.rs#~" "main.rs~" "../" "main.rs" "./")
-
- ("/home/mellemahp/oincoin-/" (23117 29158 540375 774000) "oincoin/" "requirements.txt" "TODO.md" ".gitignore" "LICENSE" "setup.py" "docs/" "../" ".git/" "./" "test/" "README.md")
-
  ("/home/mellemahp/exercism/rust/hello-world/tests/" (23141 7630 362976 751000) "hello-world.rs" "../" "./" "hello-world.rs~")
 
  ("/home/mellemahp/exercism/rust/leap/src/" (23141 7629 730967 509000) "lib.rs" "main.rs~" "../" "main.rs" "./")
 
- ("/home/mellemahp/rust_projects/adder/src/" (23141 23060 252168 483000) "lib.rs" "lib.rs~" "../" "./")
-
- ("/home/mellemahp/rust_projects/hello_cargo/src/" (23142 22600 593140 773000) "main.rs~" "../" "main.rs" "./")
-
  ("/home/mellemahp/Downloads/" (23142 47050 429739 18000) "0001-base-packaging.patch" "no-power-save" "icons8-matlab(1).svg" "pig.png" "tumblr_omd9zh6x3b1u0vd4co4_1280.jpg" "Xolotl .pdf" "Extraction-of-Volatiles-from-Lunar-Regolith-Using-Solar-Power.pdf" "porg.jpg" "../" "Microstyle Bold Extended ATT.ttf" "fonts-1/" "java.svg" "fonts/" "mastering-emacs-v2.pdf" "Finn_char sheet.pdf" "./" "Hunters_CV_V3__editing_.pdf" "TWC-DnD-5E-Character-Sheet-v1.3.pdf")
-
- ("/home/mellemahp/rust_projects/minigrep/" (23142 45919 614184 711000) "Cargo.lock" "poem.txt" "target/" "../" "Cargo.toml" "./" "src/")
 
  ("/home/mellemahp/rust_projects/adder/" (23141 22365 872732 36000) "../" "Cargo.toml" "./" "src/")
 
