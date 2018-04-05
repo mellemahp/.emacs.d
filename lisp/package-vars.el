@@ -37,11 +37,12 @@
     org-autolist
     org-bullets
 
-    ;; Extras
+    ;; Style
     fireplace
     dracula-theme
     autothemer
-
+    challenger-deep-theme
+    smart-mode-line
     ))
 
 (provide 'package-vars)

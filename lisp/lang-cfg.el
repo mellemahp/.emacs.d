@@ -18,6 +18,7 @@
 ;; Python settings
 (elpy-enable)
 (setq  elpy-rpc-backend "jedi")
+(add-hook 'python-mode-hook 'flycheck-mode)
 ;;
 
 ;; Magit

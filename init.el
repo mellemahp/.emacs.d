@@ -54,7 +54,6 @@
 	latex-cfg
 	other-cfg
 	style-cfg
-	ocodo-svg-mode-line ; cool modeline
 	mu4e ;email
 	org-bullets ; org mode ut8 bullets
 	))

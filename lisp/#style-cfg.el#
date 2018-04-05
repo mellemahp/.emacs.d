@@ -19,11 +19,7 @@ Have a blast Coding!
 
 ;; Set theme
 (load-theme
-'challenger-deep t)
-
-;; Set powerline theme
-(setq sml/theme 'respectful)
-(sml/setup)
+'dracula t)
 
 ;; Font settings
 (set-frame-font "FiraMono" nil t) ;
