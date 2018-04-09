@@ -36,11 +36,10 @@
     ;; Org Stuff
     org-autolist
     org-bullets
+    ob-ipython
 
     ;; Style
     fireplace
-    dracula-theme
-    autothemer
     challenger-deep-theme
     smart-mode-line
     ))

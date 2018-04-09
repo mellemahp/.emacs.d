@@ -2,6 +2,12 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/mellemahp/blogs/simplex/assets/" . "img/")
+ ("/home/mellemahp/blogs/simplex/" . "assets/")
+ ("/home/mellemahp/blogs/" . "simplex/")
+ ("/home/mellemahp/django_projects/django_tutorial/mysite/" . "polls/")
+ ("/home/mellemahp/django_projects/django_tutorial/" . "mysite/")
+ ("/home/mellemahp/django_projects/" . "django_tutorial/")
  ("/home/mellemahp/rust_projects/deltav/" . "src/")
  ("/home/mellemahp/website/_pages/resume/" . "sections/")
  ("/home/mellemahp/website/_pages/" . "resume/")
@@ -16,7 +22,7 @@
  ("/home/mellemahp/org_files/" . "projects/")
  ("/home/mellemahp/rust_projects/lists/" . "src/")
  ("/home/mellemahp/.emacs.d/" . "lisp/")
- ("/home/mellemahp/oincoin-/" . "test/")
+ ("/home/mellemahp/oincoin-/" . "oincoin/")
  ("/home/mellemahp/Desktop/org_files/" . "workflows/")
  ("/home/mellemahp/rust_projects/minigrep/" . "src/")
  ("/home/" . "mellemahp/")
@@ -27,26 +33,32 @@
  ("/home/mellemahp/exercism/rust/" . "leap/")
  ("/home/mellemahp/exercism/" . "rust/")
  ("/home/mellemahp/Desktop/" . "org_files/")
- ("/home/mellemahp/" . "rust_projects/")
+ ("/home/mellemahp/" . ".emacs.d/")
  ("/home/mellemahp/rust_projects/hello_cargo/" . "src/")
  ("/home/mellemahp/rust_projects/" . "deltav/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/mellemahp/rust_projects/deltav/src/"
- "/home/mellemahp/rust_projects/deltav/"
+ "/home/mellemahp/.emacs.d/lisp/"
+ "/home/mellemahp/blogs/simplex/_posts/"
  "/home/mellemahp/Desktop/"
+ "/home/mellemahp/blogs/simplex/"
+ "/home/mellemahp/django_projects/django_tutorial/mysite/polls/"
+ "/home/mellemahp/django_projects/django_tutorial/mysite/mysite/"
+ "/home/mellemahp/django_projects/django_tutorial/mysite/"
+ "/home/mellemahp/rust_projects/deltav/src/"
+ "/home/mellemahp/oincoin-/oincoin/"
+ "/home/mellemahp/"
+ "/home/mellemahp/.emacs.d/"
+ "/home/mellemahp/rust_projects/deltav/"
  "/home/mellemahp/python_interview_qs/"
  "/home/mellemahp/oincoin-/test/"
- "/home/mellemahp/oincoin-/oincoin/"
  "/home/mellemahp/Downloads/"
  "/home/mellemahp/website/_pages/resume/"
  "/home/mellemahp/website/_pages/resume/sections/"
  "/home/mellemahp/website/assets/css/"
- "/home/mellemahp/.emacs.d/lisp/"
  "/home/mellemahp/org_files/"
- "/home/mellemahp/.emacs.d/"
  "/home/mellemahp/website/_includes/"
  "/home/mellemahp/website/"
  "/home/mellemahp/rust_projects/rbe/chpt2/src/"
@@ -59,7 +71,6 @@
  "/home/mellemahp/Org-Files/"
  "/home/mellemahp/latex/"
  "/home/mellemahp/rust_projects/lists/src/"
- "/home/mellemahp/"
  "/home/mellemahp/Desktop/org_files/workflows/"
  "/home/mellemahp/rust_projects/minigrep/src/"
  "/home/mellemahp/rust_projects/minigrep/"
@@ -73,49 +84,73 @@
 
 ;; ----- ido-work-file-list -----
 (
- "main.rs"
- "config.toml"
- "Cargo.toml"
- "lib.rs"
- "advance_space_notes.org"
- "set_2.py"
- "set_1.py"
- "test_core.py"
- "oincoin.py"
- "Real False Dragons.docx"
+ "org-cfg.el"
+ "2018-04-08-Kardashev-scale.org"
+ "test.org"
+ "package-vars.el"
+ "blogs-cfg.el"
+ "org-bullets.el"
+ "2018-04-08-Kardashev-scale.md"
+ "2018-04-08-Kardashev-scale.html"
+ "2014-11-30-sample-post.md"
+ "_config.yml"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mellemahp/rust_projects/deltav/src/" (23234 54037 770351 721000) "main.rs" "../" "main.rs~" "./" "lib.rs")
+ ("/home/mellemahp/.emacs.d/lisp/" (23242 55293 452324 422000) "lang-cfg.el" "org-bullets.el" "package-vars.el" "other-cfg.el" "package-vars.el~" "org-cfg.el" "lang-cfg.el~" "blogs-cfg.el" "../" "latex-cfg.el~" "latex-cfg.el" "other-cfg.el~" "style-cfg.el~" "org-cfg.el~" "ocodo-svg-mode-line.el" "style-cfg.el" "./" "blogs-cfg.el~")
 
- ("/home/mellemahp/" (23235 43539 140271 626000) "org_files/" ".ipython/" ".esd_auth" ".zsh_history" ".gnupg/" "package-query/" ".dmrc" ".Xclients" "../" ".dir_colors" "mwifiex-firmware/" ".xsession-errors.old" ".cargo/" ".python_history" "Desktop/" ".cache/" "website/" ".bash_profile" ".local/" ".guayadeque/" ".xsession-errors" "oincoin-/" ".wget-hsts" ".thunderbird/" ".bashrc" ".ICEauthority" ".mozilla/" ".Xauthority" ".xinitrc" ".emacs.d/" "fonts/" "./" "pictures/" "rust_projects/" ".bash_logout" ".profile" "python_interview_qs/" ".gitconfig" ".thumbnails/" "Downloads/" ".bash_history" "marvin/" "paper-gtk-theme-git/" ".gimp-2.8/" ".config/" ".zshrc" ".zcompdump-hunter-pc-5.4.2")
+ ("/home/mellemahp/.emacs.d/" (23242 55087 426995 225000) "auto-save-list/" "init.el" "session.29ad4dcd9-7c97-4346-9597-3fbd69dbe70b" "ido.last" "snippets/" "../" ".directory" ".gitignore" "magithub/" "init.el~" "init.el RET" "elpa/" "#ido.last#" "./" ".git/" "org-clock-save.el~" "ac-comphist.dat" "org-clock-save.el" "ido.last~" "url/" "lisp/" "bookmarks" "session.2abdc2bdc-0dd2-4541-a786-05be9c52d1a2" "network-security.data")
+
+ ("/home/mellemahp/blogs/simplex/_posts/" (23242 55577 699708 230000) "2014-11-30-sample-post.md" "2018-04-08-Kardashev-scale.md~" "#2018-04-08-Kardashev-scale.org#" "../" "obipy-resources/" "2018-04-08-Kardashev-scale.html~" "2013-11-18-blogging-with-title.md" "./" "2018-04-08-Kardashev-scale.org~" "2018-04-08-Kardashev-scale.md" "#2018-04-08-Kardashev-scale.html#" ".#2018-04-08-Kardashev-scale.org" "2018-04-08-Kardashev-scale.org")
+
+ ("/home/mellemahp/blogs/simplex/assets/img/" (23239 55368 278837 824000) "../" "thumbnails/" "triangles.jpg" "portfolio/" "abstract-art-blue.jpg" "./" "nodes.svg" "pexels/")
+
+ ("/home/mellemahp/blogs/simplex/assets/" (23239 52704 784327 461000) "favicon.ico" "img/" "../" "css/" "fonts/" "./" "js/")
+
+ ("/home/mellemahp/Desktop/" (23242 55387 954978 661000) ".~lock.Untitled 1.odt#" "advance_space_notes.org~" ".#test.org" "../" "coverletter.org~" "firefox.desktop" "./")
+
+ ("/home/mellemahp/" (23242 55315 937371 693000) "org_files/" ".ipython/" ".esd_auth" ".pylintrc" ".zsh_history" ".gnupg/" "package-query/" ".dmrc" ".Xclients" ".pylint.d/" "../" ".dir_colors" "mwifiex-firmware/" ".xsession-errors.old" "blogs/" ".cargo/" ".python_history" "Desktop/" ".cache/" "website/" ".jupyter/" ".bash_profile" ".local/" ".guayadeque/" ".xsession-errors" "oincoin-/" ".wget-hsts" ".thunderbird/" ".pylintrc~" ".bashrc" ".ICEauthority" ".mozilla/" ".Xauthority" ".xinitrc" ".emacs.d/" "fonts/" "./" "pictures/" "rust_projects/" ".bash_logout" ".profile" "python_interview_qs/" ".gitconfig" ".thumbnails/" "Downloads/" ".bash_history" "marvin/" ".bundle/" ".rustup/" "paper-gtk-theme-git/" "django_projects/" ".gimp-2.8/" ".config/" ".zshrc" ".zcompdump-hunter-pc-5.4.2")
+
+ ("/home/mellemahp/blogs/simplex/" (23242 34081 322489 772000) "_posts/" "_site/" "type-on-strap.gemspec" "_portfolio/" "_layouts/" "feed.xml" "_config.yml~" "../" "_config.yml" "Gemfile" "README.md" "CNAME" "LICENSE" "_includes/" "assets/" "_sass/" "#_config.yml#" "./" ".sass-cache/" ".git/" "pages/" "Gemfile.lock" "_drafts/" "screenshot.png" "index.html")
+
+ ("/home/mellemahp/Downloads/" (23241 5492 624909 51000) "DSC_2529-bw.jpg" "Microsoft Research Job Description.pdf" "Advanced-Space-Cover-Letter.docx" "../" "Hunters_CV_V4.pdf" "59ysiLG.png" "20180402_162658.jpg" "DSC_2511.jpg" "Hunters_CV_V4(1).pdf" "./" "NdDxKiZ.jpg" "github_profile.jpg" "lLyAFF4.png" "Real False Dragons.docx" "O7s0uyK.png" "20180402_162658(1).jpg" "20180402_162758.jpg")
+
+ ("/home/mellemahp/rust_projects/deltav/src/" (23239 47884 950430 570000) "main.rs" "../" "main.rs~" "./" "lib.rs")
+
+ ("/home/mellemahp/django_projects/django_tutorial/mysite/polls/" (23238 36051 513179 761000) "urls.py~" "../" "models.py" "views.py" "migrations/" "tests.py" "admin.py" "./" "__init__.py" "urls.py" "apps.py" "views.py~" "__pycache__/")
+
+ ("/home/mellemahp/.emacs.d/snippets/" (23176 31894 281395 514000) "../" "./")
+
+ ("/home/" (23172 49669 5881 347000) "../" "mellemahp/" "./")
+
+ ("/home/mellemahp/blogs/" (23242 27508 555334 43000) "../" "./" "simplex/" "kii/")
+
+ ("/home/mellemahp/django_projects/django_tutorial/mysite/mysite/" (23238 35699 349124 59000) "urls.py~" "../" "./" "wsgi.py" "__init__.py" "settings.py" "urls.py" "__pycache__/")
+
+ ("/home/mellemahp/org_files/" (23237 38512 714909 185000) "kendra.org" "workflow.org~" "garden_manager.org" "foobar.org_archive" "diary.org" "website.org~" "../" "todo.org~" "rust.org~" "foobar.org~" "#refile.org#" "rust.org" "blogs.org" "./" "oincoin.org" "todo.org" "oincoin.org~" "website.org" "workflow.org" "blogs.org~" "foobar.org" "misc_software.org" "misc_software.org~" "refile.org" "#misc_software.org#")
+
+ ("/home/mellemahp/oincoin-/oincoin/" (23237 43738 289391 893000) "../" "./" "__init__.py" "oincoin.py" "__pycache__/")
+
+ ("/home/mellemahp/django_projects/django_tutorial/mysite/" (23238 35278 856173 761000) "../" "polls/" "manage.py" "./" "db.sqlite3" "mysite/")
+
+ ("/home/mellemahp/django_projects/django_tutorial/" (23238 33866 310319 99000) "../" "./" "mysite/")
+
+ ("/home/mellemahp/django_projects/" (23238 33778 393813 887000) "bin/" "include/" "../" "django_tutorial/" "lib64/" "./" "lib/" "pyvenv.cfg")
 
  ("/home/mellemahp/rust_projects/deltav/" (23234 43299 383020 718000) "Cargo.toml" "Cargo.toml~" "target/" "../" "README.md" "src/" "Cargo.lock" "./" ".git/" "config.toml")
 
- ("/home/mellemahp/.emacs.d/" (23229 21290 720035 960000) "auto-save-list/" "init.el" "session.29ad4dcd9-7c97-4346-9597-3fbd69dbe70b" "ido.last" "snippets/" "../" ".directory" ".gitignore" "magithub/" "init.el~" "init.el RET" "elpa/" "#ido.last#" "./" ".git/" "org-clock-save.el~" "ac-comphist.dat" "org-clock-save.el" "ido.last~" "url/" "lisp/" "bookmarks" "session.2abdc2bdc-0dd2-4541-a786-05be9c52d1a2" "network-security.data")
-
- ("/home/mellemahp/Downloads/" (23218 34472 743039 256000) "DSC_2529-bw.jpg" "Microsoft Research Job Description.pdf" "Advanced-Space-Cover-Letter.docx" "../" "Hunters_CV_V4.pdf" "59ysiLG.png" "Hunters_CV_V4(1).pdf" "./" "NdDxKiZ.jpg" "github_profile.jpg" "lLyAFF4.png" "Real False Dragons.docx" "O7s0uyK.png")
-
  ("/home/mellemahp/python_interview_qs/" (23224 11789 781884 532000) "#set_2.py#" "set_1.py~" "../" "test.log" "set_1.py" "./" "__pycache__/")
-
- ("/home/mellemahp/Desktop/" (23217 54266 217218 993000) "advance_space_notes.org" ".~lock.Untitled 1.odt#" "advance_space_notes.org~" "../" "coverletter.org~" "firefox.desktop" "./")
 
  ("/home/mellemahp/rust_projects/" (23175 8360 625557 30000) "hello_cargo/" "guessing_game/" "../" "hello/" "adder/" "hello_world/" "./" "rbe/" "deltav/" "minigrep/" "variables/" "lists/")
 
  ("/home/mellemahp/website/_includes/" (23201 42066 238760 168000) "head.html" "title.html" "bottom.html~" "../" "top.html" "./" "#bottom.html#~" "bottom.html" "image.html")
-
- ("/home/mellemahp/org_files/" (23210 42243 223473 705000) "kendra.org" "workflow.org~" "garden_manager.org" "foobar.org_archive" "diary.org" "website.org~" "../" "rust.org~" "foobar.org~" "#refile.org#" "rust.org" "blogs.org" "./" "oincoin.org" "todo.org" "oincoin.org~" "website.org" "workflow.org" "blogs.org~" "foobar.org" "misc_software.org" "misc_software.org~" "refile.org" "#misc_software.org#")
-
- ("/home/mellemahp/.emacs.d/lisp/" (23210 42902 92855 404000) "#style-cfg.el#" "lang-cfg.el" "org-bullets.el" "package-vars.el" "other-cfg.el" "package-vars.el~" "org-cfg.el" "lang-cfg.el~" "../" "latex-cfg.el~" "latex-cfg.el" "other-cfg.el~" "style-cfg.el~" "org-cfg.el~" "ocodo-svg-mode-line.el" "style-cfg.el" "./")
 
  ("/home/mellemahp/website/assets/css/" (23202 57179 499402 331000) "../" "mobile.css" "default.css" "syntax.css" "desktop.css" "./" "genericons.css")
 
  ("/home/mellemahp/website/_pages/resume/sections/" (23202 57258 893838 245000) "papers.html~" "leadership.html" "certificates.html" "education.html" "education.html~" "../" "leadership.html~" "papers.html" "experience.html~" "experience.html" "./" "volunteering.html" "honors.html" "languages.html")
 
  ("/home/mellemahp/website/_pages/resume/" (23202 11979 477463 315000) "sections/" "../" "./" "index.md")
-
- ("/home/mellemahp/oincoin-/oincoin/" (23212 1871 518326 3000) "../" "./" "__init__.py" "oincoin.py" "__pycache__/")
 
  ("/home/mellemahp/oincoin-/test/" (23212 3273 410416 795000) "../" "context.py" "test_core.py" "context.py~" "test_core.py~" "./" "__init__.py" "__pycache__/")
 
@@ -192,8 +227,6 @@
  ("/home/mellemahp/exercism/rust/hello-world/" (23141 2881 642199 687000) ".gitignore" "Cargo.lock" "tests/" "target/" "../" "GETTING_STARTED.md" "Cargo.toml" "./" "src/" "README.md")
 
  ("/home/mellemahp/exercism/" (23140 63038 623147 822000) "../" "./" "rust/")
-
- ("/home/" (23137 18051 331855 901000) "linuxbrew/" ".ecryptfs/" "mellemahp/" "../" ".directory" "./" "git/")
 
  ("/home/mellemahp/rust_projects/hello_cargo/" (23138 18985 509238 521000) "hello.txt" "Cargo.lock" "target/" "../" "Cargo.toml" "./" "src/")
 )

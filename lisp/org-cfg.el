@@ -4,8 +4,16 @@
 (setq org-modules (quote (org-habit)))
 
 ;; Set where the agenda pulls tasks from
-(setq org-agenda-files (quote ("~/org_files/"))) 
+(setq org-agenda-files (quote ("~/org_files/")))
 (setq org-default-notes-file "~/org_files/refile.org")
+
+;; Org babel
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((ipython . t)))
+(setq org-confirm-babel-evaluate nil)   ;don't prompt me to confirm evaluation
+;;; display/update images in the buffer after I evaluate
+(add-hook 'org-babel-after-execute-hook 'org-display-inline-images 'append)
 
 ;; Org mode settings
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
@@ -21,7 +29,7 @@
 (define-key global-map "\C-ca" 'org-agenda)
 (define-key global-map "\C-cc" 'org-capture) ;  sets what keys start capture mode
 
-;; States 
+;; States
 (setq org-todo-keywords
       (quote ((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d)")
               (sequence "WAITING(w@/!)" "HOLD(h@/!)" "|" "CANCELLED(c@/!)" "PHONE" "MEETING"))))
@@ -193,7 +201,7 @@
                        (org-agenda-skip-function 'bh/skip-non-archivable-tasks)
                        (org-tags-match-list-sublevels nil))))
                nil))))
-			   
+
 
 ;;
 ;; Resume clocking task when emacs is restarted
@@ -571,4 +579,4 @@ Skip project and sub-project tasks, habits, and loose non-project tasks."
 
 
 (provide 'org-cfg)
-;; EOF 
+;; EOF

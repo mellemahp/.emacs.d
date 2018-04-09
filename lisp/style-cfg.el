@@ -42,9 +42,13 @@ Have a blast Coding!
 ; Make emacs delete trailing whitespace on save for programming files
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
-;; Adds in volatile highlights
-(require volatile-highlights)
-(volatile-highlights-mode t)
+;; Adds smooth scrolling
+(setq redisplay-dont-pause t
+  scroll-margin 1
+  scroll-step 1
+  scroll-conservatively 10000
+  scroll-preserve-screen-position 1)
+
 
 (provide 'style-cfg)
 
