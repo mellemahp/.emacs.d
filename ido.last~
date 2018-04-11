@@ -2,7 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/mellemahp/blogs/simplex/" . "_posts/")
+ ("/home/mellemahp/blogs/simplex/" . "_drafts/")
  ("/home/mellemahp/blogs/" . "simplex/")
  ("/home/mellemahp/django_projects/django_tutorial/mysite/" . "polls/")
  ("/home/mellemahp/django_projects/django_tutorial/" . "mysite/")
@@ -40,6 +40,8 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/mellemahp/.emacs.d/lisp/"
+ "/home/mellemahp/blogs/simplex/_drafts/"
+ "/home/mellemahp/blogs/simplex/pages/"
  "/home/mellemahp/blogs/simplex/_posts/"
  "/home/mellemahp/blogs/simplex/"
  "/home/mellemahp/django_projects/django_tutorial/mysite/polls/"
@@ -85,25 +87,33 @@
 (
  "org-cfg.el"
  "org-bullets.el"
+ "apt_finding_1.org"
+ "about.md"
+ "style-cfg.el"
+ "2018-04-08-Kardashev-scale.org"
+ "package-vars.el"
+ "blogs-cfg.el"
  "2018-04-08-Kardashev-scale.md"
  "2018-04-08-Kardashev-scale.html"
- "2018-04-08-Kardashev-scale.org"
- "2014-11-30-sample-post.md"
- "blogs-cfg.el"
- "_config.yml"
- "urls.py"
- "views.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mellemahp/.emacs.d/lisp/" (23242 36346 939629 966000) "lang-cfg.el" "org-bullets.el" "#blogs-cfg.el#" "package-vars.el" "other-cfg.el" "package-vars.el~" "org-cfg.el" "lang-cfg.el~" ".#blogs-cfg.el" "../" "latex-cfg.el~" "latex-cfg.el" "other-cfg.el~" "style-cfg.el~" "org-cfg.el~" "ocodo-svg-mode-line.el" "style-cfg.el" "./")
+ ("/home/mellemahp/.emacs.d/lisp/" (23244 59347 515711 520000) "lang-cfg.el" "org-bullets.el" "package-vars.el" "other-cfg.el" "package-vars.el~" "org-cfg.el" "lang-cfg.el~" "blogs-cfg.el" "../" "latex-cfg.el~" "latex-cfg.el" "other-cfg.el~" "style-cfg.el~" "org-cfg.el~" "ocodo-svg-mode-line.el" "style-cfg.el" "./" "blogs-cfg.el~")
 
- ("/home/mellemahp/" (23242 34114 652190 954000) "org_files/" ".ipython/" ".esd_auth" ".pylintrc" ".zsh_history" ".gnupg/" "package-query/" ".dmrc" ".Xclients" ".pylint.d/" "../" ".dir_colors" "mwifiex-firmware/" ".xsession-errors.old" "blogs/" ".cargo/" ".python_history" "Desktop/" ".cache/" "website/" ".bash_profile" ".local/" ".guayadeque/" ".xsession-errors" "oincoin-/" ".wget-hsts" ".thunderbird/" ".pylintrc~" ".bashrc" ".ICEauthority" ".mozilla/" ".Xauthority" ".xinitrc" ".emacs.d/" "fonts/" "./" "pictures/" "rust_projects/" ".bash_logout" ".profile" "python_interview_qs/" ".gitconfig" ".thumbnails/" "Downloads/" ".bash_history" "marvin/" ".bundle/" ".rustup/" "paper-gtk-theme-git/" "django_projects/" ".gimp-2.8/" ".config/" ".zshrc" ".zcompdump-hunter-pc-5.4.2")
+ ("/home/mellemahp/.emacs.d/" (23244 59361 328852 0) "session.28dca8e22-d06c-466c-adea-7cf0b284a5a1" "auto-save-list/" "init.el" "session.29ad4dcd9-7c97-4346-9597-3fbd69dbe70b" "ido.last" "snippets/" "../" ".directory" ".gitignore" "magithub/" "init.el~" "init.el RET" "elpa/" "#ido.last#" "./" ".git/" "org-clock-save.el~" "ac-comphist.dat" "org-clock-save.el" "ido.last~" "url/" "lisp/" "bookmarks" "session.2abdc2bdc-0dd2-4541-a786-05be9c52d1a2" "network-security.data")
+
+ ("/home/mellemahp/blogs/simplex/_drafts/" (23244 59358 695555 432000) "../" "apt_finding_1.org" "./" "post-draft.md")
+
+ ("/home/mellemahp/" (23244 59361 335518 573000) "org_files/" ".ipython/" ".esd_auth" ".pylintrc" ".zsh_history" ".gnupg/" "package-query/" ".dmrc" ".Xclients" ".pylint.d/" "../" ".dir_colors" "mwifiex-firmware/" ".xsession-errors.old" "blogs/" ".cargo/" ".python_history" "Desktop/" ".cache/" "website/" ".jupyter/" ".bash_profile" ".local/" ".guayadeque/" ".xsession-errors" "oincoin-/" ".wget-hsts" ".thunderbird/" ".pylintrc~" ".bashrc" ".ICEauthority" ".mozilla/" ".Xauthority" ".xinitrc" ".emacs.d/" "fonts/" "./" "pictures/" "rust_projects/" ".bash_logout" ".profile" "python_interview_qs/" ".gitconfig" ".thumbnails/" "Downloads/" ".bash_history" "marvin/" ".bundle/" ".rustup/" "paper-gtk-theme-git/" "django_projects/" ".gimp-2.8/" ".config/" ".zshrc" ".zcompdump-hunter-pc-5.4.2")
+
+ ("/home/mellemahp/blogs/simplex/pages/" (23239 52704 787660 753000) "portfolio.html" "about.md" "../" "404.md" "./" "search.html" "tags.html")
+
+ ("/home/mellemahp/blogs/simplex/assets/" (23239 52704 784327 461000) "favicon.ico" "img/" "../" "css/" "fonts/" "./" "js/")
+
+ ("/home/mellemahp/blogs/simplex/_posts/" (23242 57728 636187 837000) "_site/" "2014-11-30-sample-post.md" "2018-04-08-Kardashev-scale.org_archive" "2018-04-08-Kardashev-scale.md~" "../" "obipy-resources/" "2018-04-08-Kardashev-scale.html~" "2013-11-18-blogging-with-title.md" "./" "2018-04-08-Kardashev-scale.org~" "2018-04-08-Kardashev-scale.md" "#2018-04-08-Kardashev-scale.html#" "2018-04-08-Kardashev-scale.org")
 
  ("/home/mellemahp/blogs/simplex/" (23242 34081 322489 772000) "_posts/" "_site/" "type-on-strap.gemspec" "_portfolio/" "_layouts/" "feed.xml" "_config.yml~" "../" "_config.yml" "Gemfile" "README.md" "CNAME" "LICENSE" "_includes/" "assets/" "_sass/" "#_config.yml#" "./" ".sass-cache/" ".git/" "pages/" "Gemfile.lock" "_drafts/" "screenshot.png" "index.html")
-
- ("/home/mellemahp/blogs/simplex/_posts/" (23242 36266 286827 973000) "2014-11-30-sample-post.md" "2018-04-08-Kardashev-scale.md~" "../" "2018-04-08-Kardashev-scale.html~" "2013-11-18-blogging-with-title.md" "./" "2018-04-08-Kardashev-scale.org~" "#2018-04-08-Kardashev-scale.html#" ".#2018-04-08-Kardashev-scale.org")
 
  ("/home/mellemahp/Downloads/" (23241 5492 624909 51000) "DSC_2529-bw.jpg" "Microsoft Research Job Description.pdf" "Advanced-Space-Cover-Letter.docx" "../" "Hunters_CV_V4.pdf" "59ysiLG.png" "20180402_162658.jpg" "DSC_2511.jpg" "Hunters_CV_V4(1).pdf" "./" "NdDxKiZ.jpg" "github_profile.jpg" "lLyAFF4.png" "Real False Dragons.docx" "O7s0uyK.png" "20180402_162658(1).jpg" "20180402_162758.jpg")
 
@@ -116,8 +126,6 @@
  ("/home/mellemahp/.emacs.d/snippets/" (23176 31894 281395 514000) "../" "./")
 
  ("/home/" (23172 49669 5881 347000) "../" "mellemahp/" "./")
-
- ("/home/mellemahp/.emacs.d/" (23238 44398 790016 495000) "auto-save-list/" "init.el" "session.29ad4dcd9-7c97-4346-9597-3fbd69dbe70b" "ido.last" "snippets/" "../" ".directory" ".gitignore" "magithub/" "init.el~" "init.el RET" "elpa/" "#ido.last#" "./" ".git/" "org-clock-save.el~" "ac-comphist.dat" "org-clock-save.el" "ido.last~" "url/" "lisp/" "bookmarks" "session.2abdc2bdc-0dd2-4541-a786-05be9c52d1a2" "network-security.data")
 
  ("/home/mellemahp/blogs/" (23242 27508 555334 43000) "../" "./" "simplex/" "kii/")
 

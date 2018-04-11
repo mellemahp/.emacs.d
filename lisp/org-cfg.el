@@ -9,12 +9,13 @@
 
 ;; Org babel
 (org-babel-do-load-languages
- 'org-babel-load-languages
- '((ipython . t)))
+   'org-babel-load-languages
+   '((python . t) (ipython . t)))
 (setq org-confirm-babel-evaluate nil)   ;don't prompt me to confirm evaluation
 ;;; display/update images in the buffer after I evaluate
 (add-hook 'org-babel-after-execute-hook 'org-display-inline-images 'append)
-
+(setq org-src-fontify-natively t)
+(setq org-src-tab-acts-natively t)
 ;; Org mode settings
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 (setq org-log-done `time)
@@ -22,7 +23,7 @@
 (setq org-enforce-todo-dependencies t)
 (setq org-clock-idle-time '10)
 (setq apropos-sort-by-scores t)
-
+(add-hook 'org-mode-hook #'yas-minor-mode)
 
 ;; Custom key bindins
 (define-key global-map "\C-cl" 'org-store-link)

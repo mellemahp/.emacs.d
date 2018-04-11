@@ -2,8 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/mellemahp/blogs/simplex/assets/" . "img/")
- ("/home/mellemahp/blogs/simplex/" . "assets/")
+ ("/home/mellemahp/blogs/simplex/_site/" . "about/")
+ ("/home/mellemahp/blogs/simplex/" . "pages/")
  ("/home/mellemahp/blogs/" . "simplex/")
  ("/home/mellemahp/django_projects/django_tutorial/mysite/" . "polls/")
  ("/home/mellemahp/django_projects/django_tutorial/" . "mysite/")
@@ -40,9 +40,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/mellemahp/blogs/simplex/pages/"
  "/home/mellemahp/.emacs.d/lisp/"
  "/home/mellemahp/blogs/simplex/_posts/"
- "/home/mellemahp/Desktop/"
  "/home/mellemahp/blogs/simplex/"
  "/home/mellemahp/django_projects/django_tutorial/mysite/polls/"
  "/home/mellemahp/django_projects/django_tutorial/mysite/mysite/"
@@ -52,6 +52,7 @@
  "/home/mellemahp/"
  "/home/mellemahp/.emacs.d/"
  "/home/mellemahp/rust_projects/deltav/"
+ "/home/mellemahp/Desktop/"
  "/home/mellemahp/python_interview_qs/"
  "/home/mellemahp/oincoin-/test/"
  "/home/mellemahp/Downloads/"
@@ -84,37 +85,39 @@
 
 ;; ----- ido-work-file-list -----
 (
- "org-cfg.el"
+ "about.md"
+ "style-cfg.el"
  "2018-04-08-Kardashev-scale.org"
- "test.org"
  "package-vars.el"
+ "org-cfg.el"
  "blogs-cfg.el"
  "org-bullets.el"
  "2018-04-08-Kardashev-scale.md"
  "2018-04-08-Kardashev-scale.html"
  "2014-11-30-sample-post.md"
- "_config.yml"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mellemahp/.emacs.d/lisp/" (23242 55293 452324 422000) "lang-cfg.el" "org-bullets.el" "package-vars.el" "other-cfg.el" "package-vars.el~" "org-cfg.el" "lang-cfg.el~" "blogs-cfg.el" "../" "latex-cfg.el~" "latex-cfg.el" "other-cfg.el~" "style-cfg.el~" "org-cfg.el~" "ocodo-svg-mode-line.el" "style-cfg.el" "./" "blogs-cfg.el~")
+ ("/home/mellemahp/blogs/simplex/pages/" (23239 52704 787660 753000) "portfolio.html" "about.md" "../" "404.md" "./" "search.html" "tags.html")
 
- ("/home/mellemahp/.emacs.d/" (23242 55087 426995 225000) "auto-save-list/" "init.el" "session.29ad4dcd9-7c97-4346-9597-3fbd69dbe70b" "ido.last" "snippets/" "../" ".directory" ".gitignore" "magithub/" "init.el~" "init.el RET" "elpa/" "#ido.last#" "./" ".git/" "org-clock-save.el~" "ac-comphist.dat" "org-clock-save.el" "ido.last~" "url/" "lisp/" "bookmarks" "session.2abdc2bdc-0dd2-4541-a786-05be9c52d1a2" "network-security.data")
+ ("/home/mellemahp/blogs/simplex/_site/about/" (23239 52730 310676 20000) "../" "./" "index.html")
 
- ("/home/mellemahp/blogs/simplex/_posts/" (23242 55577 699708 230000) "2014-11-30-sample-post.md" "2018-04-08-Kardashev-scale.md~" "#2018-04-08-Kardashev-scale.org#" "../" "obipy-resources/" "2018-04-08-Kardashev-scale.html~" "2013-11-18-blogging-with-title.md" "./" "2018-04-08-Kardashev-scale.org~" "2018-04-08-Kardashev-scale.md" "#2018-04-08-Kardashev-scale.html#" ".#2018-04-08-Kardashev-scale.org" "2018-04-08-Kardashev-scale.org")
+ ("/home/mellemahp/blogs/simplex/_site/" (23242 57507 872915 861000) "404.html" "2014/" "feed.xml" "search/" "2018/" "../" "CNAME" "portfolio/" "2013/" "assets/" "./" "about/" "tags/" "index.html")
 
- ("/home/mellemahp/blogs/simplex/assets/img/" (23239 55368 278837 824000) "../" "thumbnails/" "triangles.jpg" "portfolio/" "abstract-art-blue.jpg" "./" "nodes.svg" "pexels/")
+ ("/home/mellemahp/.emacs.d/lisp/" (23242 55756 777040 786000) "lang-cfg.el" "org-bullets.el" "package-vars.el" "other-cfg.el" "package-vars.el~" "org-cfg.el" "lang-cfg.el~" "blogs-cfg.el" "../" "latex-cfg.el~" "latex-cfg.el" "other-cfg.el~" "style-cfg.el~" "org-cfg.el~" "ocodo-svg-mode-line.el" "style-cfg.el" "./" "blogs-cfg.el~")
 
- ("/home/mellemahp/blogs/simplex/assets/" (23239 52704 784327 461000) "favicon.ico" "img/" "../" "css/" "fonts/" "./" "js/")
+ ("/home/mellemahp/.emacs.d/" (23242 59802 67829 412000) "auto-save-list/" "init.el" "session.29ad4dcd9-7c97-4346-9597-3fbd69dbe70b" "ido.last" "snippets/" "../" ".directory" ".gitignore" "magithub/" "init.el~" "init.el RET" "elpa/" "#ido.last#" "./" ".git/" "org-clock-save.el~" "ac-comphist.dat" "org-clock-save.el" "ido.last~" "url/" "lisp/" "bookmarks" "session.2abdc2bdc-0dd2-4541-a786-05be9c52d1a2" "network-security.data")
 
- ("/home/mellemahp/Desktop/" (23242 55387 954978 661000) ".~lock.Untitled 1.odt#" "advance_space_notes.org~" ".#test.org" "../" "coverletter.org~" "firefox.desktop" "./")
+ ("/home/mellemahp/" (23243 42396 286339 515000) "org_files/" ".ipython/" ".esd_auth" ".pylintrc" ".zsh_history" ".gnupg/" "package-query/" ".dmrc" ".Xclients" ".pylint.d/" "../" ".dir_colors" "mwifiex-firmware/" ".xsession-errors.old" "blogs/" ".cargo/" ".python_history" "Desktop/" ".cache/" "website/" ".jupyter/" ".bash_profile" ".local/" ".guayadeque/" ".xsession-errors" "oincoin-/" ".wget-hsts" ".thunderbird/" ".pylintrc~" ".bashrc" ".ICEauthority" ".mozilla/" ".Xauthority" ".xinitrc" ".emacs.d/" "fonts/" "./" "pictures/" "rust_projects/" ".bash_logout" ".profile" "python_interview_qs/" ".gitconfig" ".thumbnails/" "Downloads/" ".bash_history" "marvin/" ".bundle/" ".rustup/" "paper-gtk-theme-git/" "django_projects/" ".gimp-2.8/" ".config/" ".zshrc" ".zcompdump-hunter-pc-5.4.2")
 
- ("/home/mellemahp/" (23242 55315 937371 693000) "org_files/" ".ipython/" ".esd_auth" ".pylintrc" ".zsh_history" ".gnupg/" "package-query/" ".dmrc" ".Xclients" ".pylint.d/" "../" ".dir_colors" "mwifiex-firmware/" ".xsession-errors.old" "blogs/" ".cargo/" ".python_history" "Desktop/" ".cache/" "website/" ".jupyter/" ".bash_profile" ".local/" ".guayadeque/" ".xsession-errors" "oincoin-/" ".wget-hsts" ".thunderbird/" ".pylintrc~" ".bashrc" ".ICEauthority" ".mozilla/" ".Xauthority" ".xinitrc" ".emacs.d/" "fonts/" "./" "pictures/" "rust_projects/" ".bash_logout" ".profile" "python_interview_qs/" ".gitconfig" ".thumbnails/" "Downloads/" ".bash_history" "marvin/" ".bundle/" ".rustup/" "paper-gtk-theme-git/" "django_projects/" ".gimp-2.8/" ".config/" ".zshrc" ".zcompdump-hunter-pc-5.4.2")
+ ("/home/mellemahp/blogs/simplex/_posts/" (23242 56169 13976 202000) "_site/" "2014-11-30-sample-post.md" "2018-04-08-Kardashev-scale.md~" "#2018-04-08-Kardashev-scale.org#" "../" "obipy-resources/" "2018-04-08-Kardashev-scale.html~" "2013-11-18-blogging-with-title.md" "./" "2018-04-08-Kardashev-scale.org~" "2018-04-08-Kardashev-scale.md" "#2018-04-08-Kardashev-scale.html#" "2018-04-08-Kardashev-scale.org")
 
  ("/home/mellemahp/blogs/simplex/" (23242 34081 322489 772000) "_posts/" "_site/" "type-on-strap.gemspec" "_portfolio/" "_layouts/" "feed.xml" "_config.yml~" "../" "_config.yml" "Gemfile" "README.md" "CNAME" "LICENSE" "_includes/" "assets/" "_sass/" "#_config.yml#" "./" ".sass-cache/" ".git/" "pages/" "Gemfile.lock" "_drafts/" "screenshot.png" "index.html")
 
  ("/home/mellemahp/Downloads/" (23241 5492 624909 51000) "DSC_2529-bw.jpg" "Microsoft Research Job Description.pdf" "Advanced-Space-Cover-Letter.docx" "../" "Hunters_CV_V4.pdf" "59ysiLG.png" "20180402_162658.jpg" "DSC_2511.jpg" "Hunters_CV_V4(1).pdf" "./" "NdDxKiZ.jpg" "github_profile.jpg" "lLyAFF4.png" "Real False Dragons.docx" "O7s0uyK.png" "20180402_162658(1).jpg" "20180402_162758.jpg")
+
+ ("/home/mellemahp/Desktop/" (23241 14437 118040 11000) ".~lock.Untitled 1.odt#" "advance_space_notes.org~" "../" "coverletter.org~" "firefox.desktop" "./")
 
  ("/home/mellemahp/rust_projects/deltav/src/" (23239 47884 950430 570000) "main.rs" "../" "main.rs~" "./" "lib.rs")
 

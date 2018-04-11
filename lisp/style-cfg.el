@@ -29,11 +29,6 @@ Have a blast Coding!
 (set-frame-font "FiraMono" nil t) ;
 (set-face-attribute 'default (selected-frame) :height 125)
 
-;; ido mode
-(ido-mode t)
-(setq ido-everywhere t)
-(setq ido-enable-flex-matching t)
-
 ;; whitespace-mode
 (setq whitespace-line-column 80)
 (setq whitespace-style '(faces lines-tail))
@@ -48,6 +43,11 @@ Have a blast Coding!
   scroll-step 1
   scroll-conservatively 10000
   scroll-preserve-screen-position 1)
+
+;; ido mode
+(ido-mode t)
+(setq ido-everywhere t)
+(setq ido-enable-flex-matching t)
 
 
 (provide 'style-cfg)
