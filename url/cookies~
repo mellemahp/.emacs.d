@@ -1,0 +1,21 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ 'nil)
+(setq url-cookie-secure-storage
+ '(("en.wikipedia.org"
+  [url-cookie "WMF-Last-Access" "26-Jan-2018" "Tue, 27 Feb 2018 00:00:00 GMT" "/" "en.wikipedia.org" t]
+  [url-cookie "HttpOnly" nil "Tue, 27 Feb 2018 00:00:00 GMT" "/" "en.wikipedia.org" t])
+ (".wikipedia.org"
+  [url-cookie "WMF-Last-Access-Global" "26-Jan-2018" "Tue, 27 Feb 2018 00:00:00 GMT" "/" ".wikipedia.org" t]
+  [url-cookie "HttpOnly" nil "Tue, 27 Feb 2018 00:00:00 GMT" "/" ".wikipedia.org" t])
+ ("reddit.com"
+  [url-cookie "loid" "00000000000tu3dirb.2.1516947179472.Z0FBQUFBQmFhc2JyOVhGczJvLTkzS2tBMWlfeEl1bW1ocEU5bVV4aTFvaDREcjhHS2U5d0xPbFpGXzFzblNmYUh6MUd6RzRFQ09lbnI5Qm90VmJwdUV5bEVKZXlkMzJ1MzhHLUM1LXVQZTVCV3AtVmF2dVJucUQ0MHI0TWNueHlvMmxkTW04SnZVdEg" "26-Jan-2020 06:12:59.00 GMT" "/" "reddit.com" t]
+  [url-cookie "session_tracker" "goahSSMqjEpZmWyERF.0.1516947179469.Z0FBQUFBQmFhc2JyQUx5R3ZON1g0U1lGMWJkazBmQzBlX09GbnliSDFGeDhiVmF6MG1WSjdPQmhqamY2U1k2ZXNENE5lSERHcVc3ck12Y2dHcEhrV0RtaUxZVkFBdG9sazllczZ6ZTlqZk1CTkNCbWplcE1rbGJETXhKbTJGMW5OQS0xcXBfSWc5TVc" "26-Jan-2018 08:12:59.00 GMT" "/" "reddit.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

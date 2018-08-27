@@ -1,16 +1,24 @@
 ;; Config file for org mode modifications
 
+; org-wunderlist config
+(require 'org-wunderlist)
+(setq org-wunderlist-client-id "923196c36b0c0387124a"
+      org-wunderlist-token "916a3f031f3c92b4735f471eb1805694cbfde691fb6b91d3e10f850628db"
+      org-wunderlist-file  "~/Dropbox/org_files/Wunderlist.org"
+      org-wunderlist-dir "~/Dropbox/org_files/")
+
 ; enable habit tracking
 (setq org-modules (quote (org-habit)))
 
 ;; Set where the agenda pulls tasks from
-(setq org-agenda-files (quote ("~/org_files/")))
+(setq org-agenda-files (quote ("~/Dropbox/org_files/")))
 (setq org-default-notes-file "~/org_files/refile.org")
 
 ;; Org babel
+(setq org-latex-create-formula-image-program 'imagemagick)
 (org-babel-do-load-languages
    'org-babel-load-languages
-   '((python . t) (ipython . t)))
+   '((python . t) (ipython . t) (latex . t)))
 (setq org-confirm-babel-evaluate nil)   ;don't prompt me to confirm evaluation
 ;;; display/update images in the buffer after I evaluate
 (add-hook 'org-babel-after-execute-hook 'org-display-inline-images 'append)
@@ -79,6 +87,14 @@
                "* PHONE %? :PHONE:\n%U" :clock-in t :clock-resume t)
               ("h" "Habit" entry (file "~/org_files/refile.org")
                "* NEXT %?\n%U\n%a\nSCHEDULED: %(format-time-string \"%<<%Y-%m-%d %a .+1d/3d>>\")\n:PROPERTIES:\n:STYLE: habit\n:REPEAT_TO_STATE: NEXT\n:END:\n"))))
+
+; Set org chef capture template
+(require 'org-chef)
+(setq org-capture-templates
+      '(("c" "Cookbook" entry (file "~/Dropbox/org_files/cookbook.org")
+         "%(org-chef-get-recipe-from-url)"
+         :empty-lines 1)))
+
 
 ;; Remove empty logbook entries from clocked out tasks
 (defun bh/remove-empty-drawer-on-clock-out ()

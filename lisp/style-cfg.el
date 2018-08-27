@@ -1,5 +1,8 @@
 ;; Config setting for emacs style
 
+;; Set global ido mode
+(require 'ido)
+(ido-mode t)
 
 ;; Set startup screen
     (setq inhibit-startup-message t) ; Hide Startup Message
@@ -20,6 +23,7 @@ Have a blast Coding!
 ;; Set theme
 (load-theme
 'challenger-deep t)
+(setq custom-safe-themes t)
 
 ;; Set powerline theme
 (setq sml/theme 'respectful)

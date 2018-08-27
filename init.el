@@ -30,8 +30,6 @@
 
 ;; Email, El-get & other lisp code
 (add-to-list 'load-path
-	     "/usr/local/share/emacs/site-lisp/mu4e/")
-(add-to-list 'load-path
 	     "~/.emacs.d/lisp/")
 
 
@@ -54,7 +52,6 @@
 	latex-cfg
 	other-cfg
 	style-cfg
-	mu4e ;email
 	org-bullets ; org mode ut8 bullets
 	))
 

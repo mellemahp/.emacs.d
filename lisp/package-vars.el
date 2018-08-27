@@ -15,14 +15,16 @@
     all-the-icons
     magit
     magithub
-
+    auctex
     ;; Programming
     ; Python
     jedi
     elpy
+
     ; Rust
     rust-mode
     cargo
+    origami
     ;flycheck
     flycheck-rust
     racer
@@ -37,7 +39,9 @@
     org-autolist
     org-bullets
     ob-ipython
-
+    org-wunderlist
+    org-super-agenda
+    org-chef
     ;; Style
     fireplace
     challenger-deep-theme
