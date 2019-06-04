@@ -8,6 +8,7 @@
 /project-explorer-cache/
 /snippets/
 /url/
+/tramp/
 
 # Ido files and data #
 ######################
@@ -43,6 +44,7 @@
 *.log
 *.sql
 *.sqlite
+session*
 
 # OS generated files #
 ######################
